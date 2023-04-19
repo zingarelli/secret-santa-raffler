@@ -1,0 +1,68 @@
+:root {
+  --azul: #4B69FD;
+  --preto: #000000;
+  --branco: #FFFFFF;
+  --laranja: #FE652B;
+  --laranja-claro: #ffdac2;
+  --rosa: #FFF9EB;
+  --cinza-claro: #C4C4C4;
+  --cinza: #444444;
+  --vermelho: #eb0000;
+
+  --main-font: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--azul);
+  color: var(--cinza);
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h2 {
+  color: var(--azul);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.85rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button--secondary {
+  background-color: var(--laranja);
+  color: var(--branco);
+  font-family: var(--main-font);
+  font-size: 1rem;
+  font-weight: 600;
+  width: 155px;
+  height: 64px;
+  padding: .3rem 1rem;
+  border: 1px solid var(--preto);
+  border-radius: 38px;
+  box-shadow: 2px 2px 0px #000000;
+}
+
+.button--secondary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.button--secondary:hover {
+  background-color: var(--azul);
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .button--secondary {
+    width: 351px;
+    height: 80px;
+    font-size: 1.3rem;
+    padding: 1em;
+  }
+}

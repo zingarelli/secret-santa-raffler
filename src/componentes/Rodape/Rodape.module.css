@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2em;
+}
+
+.image {
+    width: 127px;
+    height: 98px;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .image {
+        width: 237px;
+        height: 183px;
+    }
+}

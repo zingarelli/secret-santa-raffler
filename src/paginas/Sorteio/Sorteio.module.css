@@ -1,0 +1,55 @@
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select {
+    color: var(--cinza);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    border: 1px solid var(--preto);
+    border-radius: 38px;
+    width: 100%;
+    padding: .8rem;
+    filter: drop-shadow(2px 2px 0px var(--preto));
+}
+
+.info {
+    margin: 1.6rem auto 1.3rem;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+.amigo {
+    background-color: var(--laranja-claro);
+    color: var(--laranja);
+    max-width: 90%;
+    font-size: 1.15rem;
+    text-align: center;
+    padding: .5em 2em;
+    margin: .85rem auto 1.25rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .form > button {
+        width: 250px;
+        height: 60px;
+        padding: 0;
+    }
+    
+    .select {
+        width: 50%;
+        font-size: 1.3rem;
+        padding: .8rem 1.5rem;
+    }
+
+    .info {
+        font-size: 1.25rem;
+    }
+
+    .amigo {
+        font-size: 2rem;
+    }
+}

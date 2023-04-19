@@ -1,0 +1,36 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 3em;
+}
+
+.logo {
+   background: url('/public/images/logo-pequeno.png') no-repeat center/cover;
+   width: 186px;
+   height: 158px;
+}
+
+.participante {
+   width: 296px;
+   z-index: 1;
+}
+
+@media screen and (min-width: 1024px) {
+   .container {
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 5em;
+   }
+
+   .logo {
+      background-image: url('/public/images/logo.png');
+      width: 350px;
+      height: 117px;
+   }
+
+   .participante {
+      width: 450px;
+   }
+}

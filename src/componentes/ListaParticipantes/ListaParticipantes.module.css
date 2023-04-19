@@ -1,0 +1,18 @@
+.titulo {
+    font-weight: 600;
+    margin-top: .75rem;
+}
+
+.item {
+    line-height: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .titulo, .item {
+        font-size: 1.25rem;
+    }
+
+    .item {
+        line-height: 2rem;
+    }
+}
