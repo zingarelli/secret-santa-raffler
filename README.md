@@ -8,7 +8,7 @@ Sorteador de amigo secreto, desenvolvido utilizando os princípios de TDD (*Test
 | -------------  | --- |
 | :sparkles: Nome        | **Sorteador de amigo secreto**
 | :label: Tecnologias | React, TypeScript
-| :rocket: URL         | 
+| :rocket: URL         | https://secret-santa-raffler-zingarelli.vercel.app
 | :fire: Curso     | https://cursos.alura.com.br/course/react-testando-componentes
 
 ![](https://user-images.githubusercontent.com/19349339/233178790-c908dd9e-2e93-4c79-b1ff-4889eaaa99aa.png#vitrinedev)
@@ -21,6 +21,8 @@ Este projeto foi desenvolvido no curso [React: testando os seus componentes
 Instrutor: **[Vinicios Neves](https://www.linkedin.com/in/vinny-neves/)**.
 
 ## Detalhes do projeto
+
+[Veja o projeto online](https://secret-santa-raffler-zingarelli.vercel.app).
 
 Esta é uma aplicação que faz o sorteio de amigo secreto para você. Após informar o nome das pessoas que irão participar, a aplicação efetua o sorteio e garante que nenhuma pessoa irá sortear a si própria. 
 
@@ -67,6 +69,7 @@ Instructor: **[Vinicios Neves](https://www.linkedin.com/in/vinny-neves/)**.
 
 ## Project details
 
+[Check the project online](https://secret-santa-raffler-zingarelli.vercel.app).
 This app performs the raffling for a secret santa event. After entering the names, the app does the draws and guarantee that no one will get his/her own name.
 
 The app is in Portuguese and has two pages: home and raffle.
