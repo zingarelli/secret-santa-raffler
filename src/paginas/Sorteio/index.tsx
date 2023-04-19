@@ -16,9 +16,9 @@ export default function Sorteio() {
             setAmigoSecreto(resultado.get(participanteDaVez)!)
             
             // o nome será mostrado somente por 5 segundos
-            // setTimeout(() => {
-            //     setAmigoSecreto('');
-            // }, 5000);
+            setTimeout(() => {
+                setAmigoSecreto('');
+            }, 5000);
         }
     }
 
